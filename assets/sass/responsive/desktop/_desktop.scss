@@ -1,0 +1,55 @@
+header.main{
+	left: 50% !important;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	nav.main-menu{
+		a.scroll{
+			&:hover{
+				border-color: #02a1cf;
+				text-decoration: none;
+			}
+		}
+	}
+	a.phone{
+		padding-top: 1.5%;
+	}
+}
+
+#home{
+	section.featured{
+		article{
+			hgroup{
+				&:hover{
+					h1{
+						left: 40px;
+						a{
+							text-decoration: none;
+						}
+					}
+					> a{
+						left: 20px;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+#funcionalidades{
+	.steps{
+		article{
+			aside{
+				padding-bottom: 110px;
+			}
+		}
+		nav{
+			bottom: 40px;
+			left: 15px;
+			button.next{
+				margin-left: 50px;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+header.main{
+	width: 100%;
+	float: left;
+	h1.logo{
+		padding: 10px 0 !important;
+	}
+	nav.main-menu{
+		position: fixed;
+		top: 0;
+		right: -100%;
+		width: 50%;
+		height: 100%;
+		background: #fff;
+		z-index: 310;
+		padding-top: 60px;
+		@include box-shadow(-50px 0 300px #000);
+		@include transition(0.15s ease-out);
+		a.scroll{
+			display: block !important;
+			padding: 5px 0 !important;
+			height: auto;
+		}
+		a.chat{
+			display: block !important;
+			margin-left: 0 !important;
+			height: auto;
+		}
+		&.selected{
+			right: 0 !important;
+		}
+	}
+	a.phone{
+		right: 66px !important;
+		font-size: 95% !important;
+		padding-top: 3% !important;
+		span.small{
+			font-size: 100% !important;
+		}
+	}
+}
+
+#funcionalidades{
+	.steps{
+		nav{
+			top: 30px;
+			right: 15px;
+			button.next{
+				margin-left: 15px;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pontod/exiba",
+    "require": {
+        "alterfw/alter": "0.1.x"
+    },
+    "authors": [
+        {
+            "name": "Sergio Vilar",
+            "email": "vilar@me.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,6 @@
+$font-size: 16;
+$icon-font-path: "../fonts/bootstrap/";
+
+// Sprite mappers
+$sprite: sprite-map("sprite/icons/*.png", $layout: "smart");
+$sprite-retina: sprite-map("sprite/icons-2x/*.png", $layout: "smart");

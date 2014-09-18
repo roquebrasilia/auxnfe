@@ -1,0 +1,154 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "72e70fef6b3c81b8258388b1c6449fd6",
+    "packages": [
+        {
+            "name": "alterfw/alter",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alterfw/alter.git",
+                "reference": "67bcf960c1f91dc6555cc71cbde967315fe0bf4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alterfw/alter/zipball/67bcf960c1f91dc6555cc71cbde967315fe0bf4b",
+                "reference": "67bcf960c1f91dc6555cc71cbde967315fe0bf4b",
+                "shasum": ""
+            },
+            "require": {
+                "alterfw/meta-box": "dev-master",
+                "alterfw/wordpress-for-developers": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/main.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergio Vilar",
+                    "email": "vilar@me.com"
+                }
+            ],
+            "description": "A small framework that provides the way to develop model-based Wordpress themes",
+            "time": "2014-07-14 02:13:54"
+        },
+        {
+            "name": "alterfw/meta-box",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alterfw/meta-box.git",
+                "reference": "ff8697cc42bc212791ab171efd98d66bcd7a29f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alterfw/meta-box/zipball/ff8697cc42bc212791ab171efd98d66bcd7a29f6",
+                "reference": "ff8697cc42bc212791ab171efd98d66bcd7a29f6",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Ngoc Tuan Anh",
+                    "email": "rilwis@gmail.com",
+                    "homepage": "http://www.deluxeblogtips.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily create custom meta boxes in WordPress.",
+            "homepage": "http://www.deluxeblogtips.com/meta-box/",
+            "keywords": [
+                "meta-box",
+                "select2",
+                "ui",
+                "wordpress",
+                "wp-admin"
+            ],
+            "time": "2014-07-04 02:45:53"
+        },
+        {
+            "name": "alterfw/php-form-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alterfw/PHP-Form-Generator-Lib.git",
+                "reference": "1c0c4f6683aafc4700924f3a9703ebd4a6158e0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alterfw/PHP-Form-Generator-Lib/zipball/1c0c4f6683aafc4700924f3a9703ebd4a6158e0d",
+                "reference": "1c0c4f6683aafc4700924f3a9703ebd4a6158e0d",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Pelegrino",
+                    "email": "lucas.wxp@gmail.com"
+                }
+            ],
+            "description": "This library has the goal of make simple the creation and population of HTML forms",
+            "time": "2014-07-04 02:46:40"
+        },
+        {
+            "name": "alterfw/wordpress-for-developers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alterfw/Wordpress-for-Developers.git",
+                "reference": "bd57fc83389d7e7d4eaf3892dd75b1755d72261f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alterfw/Wordpress-for-Developers/zipball/bd57fc83389d7e7d4eaf3892dd75b1755d72261f",
+                "reference": "bd57fc83389d7e7d4eaf3892dd75b1755d72261f",
+                "shasum": ""
+            },
+            "require": {
+                "alterfw/php-form-generator": "dev-master"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Pelegrino",
+                    "email": "lucas.wxp@gmail.com"
+                }
+            ],
+            "description": "A library to create CRUD elements in Wordpress",
+            "time": "2014-07-04 11:02:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
